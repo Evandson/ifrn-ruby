@@ -1,4 +1,2 @@
-puts "Informe o nome: "
-nome = gets
-
+nome = gets.chomp
 puts "Oi #{nome}, bem vindo ao mundo Ruby!"

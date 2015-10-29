@@ -1,5 +1,3 @@
-puts "Escreva um pequeno texto: "
-texto = gets
-
-puts "#{texto}"
-puts "#{texto.size}"
+texto = gets.chomp
+puts texto
+puts texto.size
