@@ -7,9 +7,8 @@ def impar? (n)
 	end
 end
 
-puts "Informe um numero:"
 a = gets.to_i
 
 resultado = impar?(a)
 
-puts "Impar: #{resultado}"
+puts resultado
