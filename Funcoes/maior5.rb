@@ -11,13 +11,3 @@ elsif (e > a && e > b && e > c && e > d)
 	return maior
 	end
 end
-
-a = gets.to_i
-b = gets.to_i
-c = gets.to_i
-d = gets.to_i
-e = gets.to_i
-
-resultado = maior5(a, b, c, d, e)
-
-puts resultado
