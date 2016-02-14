@@ -6,9 +6,3 @@ def impar? (n)
 	return numero
 	end
 end
-
-a = gets.to_i
-
-resultado = impar?(a)
-
-puts resultado

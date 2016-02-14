@@ -6,7 +6,7 @@ elsif (c > a && c > b && c > d && c > e)
 	maior = c
 elsif (d > a && d > b && d > c && d > e)
 	maior = c
-elsif (e > a && e > b && e > c && e > d )
+elsif (e > a && e > b && e > c && e > d)
 	maior = e
 	return maior
 	end
