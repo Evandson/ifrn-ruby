@@ -6,7 +6,7 @@ def quantidade_de_vogais (s)
 		text = s.downcase.split("")
 		qtdvogal = 0;
 		for i in text do
-			if (i == "a" || i == "e" || i == "o" || i == "u")
+			if (i == "a" || i == "e" || i == "i" || i == "o" || i == "u")
 				qtdvogal +=1
 			end
 		end 
