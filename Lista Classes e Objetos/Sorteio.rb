@@ -8,11 +8,14 @@ class Sorteio
 		array = []
 		while (array.length < @fim..@inicio) do
 			number = rand(@inicio..@fim)
-				if (number != array.length) 
-					array << number
+			aux = number.to_s
+				if (array.include?(aux)) 
+					array.delete(aux)
+				else
+					array << aux
 				end	
 			end
-		return array
+		return sorteados = array.map(&:to_i)
 	end
 end
 
