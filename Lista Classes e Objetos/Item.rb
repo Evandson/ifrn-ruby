@@ -1,5 +1,5 @@
 class Item
-	attr_acessor :nome, :descricao, :valor 
+	attr_accessor :nome, :descricao, :valor
 	def initialize (nome, descricao, valor)
 		@nome = nome
 		@descricao = descricao
@@ -30,5 +30,4 @@ end
 	def getValor
 		@valor
 	end
-	=end
-end
+=end
